@@ -20,7 +20,7 @@ jobs:
     - name: Install SDK & Build Dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y ccache git libffi-dev libssl-dev autoconf automake libtool pkg-config zlib1g-dev python3-dev python3-pip cmake intel-opencl-icd lldap-utils lld
+        sudo apt-get install -y ccache git libffi-dev libssl-dev autoconf automake libtool pkg-config zlib1g-dev python3-dev python3-pip cmake intel-opencl-icd lld
         pip3 install --user --upgrade buildozer cython virtualenv
 
     - name: Set up JDK 17
